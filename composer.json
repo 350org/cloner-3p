@@ -1,7 +1,7 @@
 {
   "name": "350org/cloner-3p",
   "description": "Clone sites in a network installation",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "keywords": ["wordpress", "plugin"],
   "homepage": "https://github.com/350org/cloner-3p",
   "authors": [
@@ -11,6 +11,9 @@
     }
   ],
   "type": "wordpress-plugin",
+  "extra": {
+    "installer-name": "cloner"
+  },
   "require": {
     "php": ">=7.0"
   }
