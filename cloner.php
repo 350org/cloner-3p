@@ -5,7 +5,7 @@ Plugin URI: https://premium.wpmudev.org/project/cloner
 Description: Clone sites in a network installation
 Author: WPMU DEV
 Author URI: http://premium.wpmudev.org/
-Version: 1.8.0
+Version: 1.8.1
 Network: true
 Text Domain: wpmudev-cloner
 Domain Path: lang
@@ -70,7 +70,7 @@ class WPMUDEV_Cloner {
 
 	}
 
-	
+
 
 	private function set_constants() {
 		if ( ! defined( 'WPMUDEV_CLONER_PLUGIN_DIR' ) )
@@ -134,8 +134,8 @@ class WPMUDEV_Cloner {
 
 	/**
 	 * Remove arguments from copier based on Cloner Settings
-	 * 
-	 * @param type $args 
+	 *
+	 * @param type $args
 	 * @return type
 	 */
 	public function set_copier_args( $option, $destination_blog_id, $args ) {
